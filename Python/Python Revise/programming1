@@ -1,0 +1,18 @@
+thislist = ["Orange", "Banana", "Apple"]
+
+tropical = ["mango", "pineapple", "papaya"]
+
+thislist.extend(tropical)
+
+print(thislist)
+
+i =0
+
+while i < len(thislist):
+
+    print(thislist[i])
+
+    i = i + 1
+
+for j in range(len(thislist)):
+    print(thislist[j])

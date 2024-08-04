@@ -1,0 +1,7 @@
+thislist = ["Orange", "Banana", "Apple"]
+
+tropical = ["mango", "pineapple", "papaya"]
+
+thislist.extend(tropical)
+
+print(thislist)
