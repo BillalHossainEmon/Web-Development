@@ -1,0 +1,30 @@
+.myTable {
+    padding: 200px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.tableContainer {
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    background-color: bisque;
+}
+
+.tableContainer table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+.tableContainer table th {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgb(91, 146, 195);
+    color: rgb(198, 216, 232);
+}
+
+.tableContainer table td {
+    border: 2px solid black;
+    padding: 15px;
+    color: black;
+}

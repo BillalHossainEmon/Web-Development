@@ -1,0 +1,42 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.banner-container {
+    background-color: #cacaca;
+}
+
+.banner-column {
+    background-color: #8d8d8d;
+}
+
+.navbar-container {
+    background-color: #262B37;
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+.about-container {
+    background-color: #ececec;
+}
+
+.education-container {
+    background-color: #cacaca
+}
+
+.circle {
+    background-color: #8d8d8d;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.project-container {
+    background-color: #8d8d8d;
+}
+
+.portfolio-container {
+    background-color: #262B37;
+}

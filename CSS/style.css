@@ -1,0 +1,17 @@
+p {
+    color: brown;
+    background-color: aquamarine;
+}
+
+#secondP {
+    color: blue;
+    background-color: aliceblue;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+}

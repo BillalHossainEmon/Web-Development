@@ -1,0 +1,45 @@
+.navbar {
+    max-width: 500px;
+    border: 15px solid green;
+    background-color: grey;
+    padding: 15px;
+    margin: 25px;
+    font-family: 'Lobster', sans-serif;
+    ;
+}
+
+.navbar p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+#innerLink {
+    display: block;
+    width: 150px;
+    margin: auto;
+    padding: 25px;
+    background-color: rgb(127, 167, 169);
+    border-radius: 10px;
+}
+
+#innerLink:link {
+    background-color: rgb(18, 135, 135);
+    color: rgb(86, 86, 138);
+}
+
+
+}
+#innerLink:visited {
+    background-color: rgb(14, 45, 35);
+    color: rgb(144, 42, 42);
+}
+
+}
+#innerLink:hover {
+    background-color: rgb(127, 255, 212);
+    color: black;
+}
+#innerLink:checked {
+    background-color: rgb(127, 255, 170);
+    color: rgb(16, 136, 36);
+}

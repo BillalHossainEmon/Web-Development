@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="useraction.php" method="get">
+        <label for="username">UserName<br></label>
+        <input id="username" type="text"><br>
+        <label for="password">Password<br></label>
+        <input id="password" type="password"><br>
+        <label for="gender">Gender<br></label>
+        <input type="radio" name="gender" value="Male" id="Male">Male<br>
+        <input type="radio" name="gender" value="Female" id="Female">Female<br>
+        <label for="area">Area<br></label>
+        <input type="text" list="myList">
+        <datalist id="myList">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Sylhet">Sylhet</option>
+        </datalist><br>
+        <button type="button">Submit</button>
+
+    </form>
+</body>
+
+</html>
